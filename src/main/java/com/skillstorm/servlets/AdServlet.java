@@ -89,8 +89,7 @@ public class AdServlet extends HttpServlet{
 			e.printStackTrace();
 		}
 		
-		// set the status code to 201: CREATED
-		resp.setStatus(201);
+		resp.setStatus(200); //successfully updated with response
 		
 		// setting content type to JSON
 		resp.setContentType("application/json");
